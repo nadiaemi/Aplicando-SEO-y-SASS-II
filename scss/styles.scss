@@ -1,0 +1,144 @@
+@import "variables";
+@import "tiendas";
+@import "contacto";
+
+// estilos header y body
+
+header{
+    padding: 15px;
+    background-image: linear-gradient($rosa, $claro);
+
+    h1{
+        font-family: $fuente-titulo;
+        color: $verde;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 15px;
+    }
+}
+
+body{
+    background-color: $muyClaro;
+    font-family: $fuente-cuerpo;
+}
+
+// estilos barra de navegación
+
+.barraNavegacion{
+    background-color: $fucsia !important;
+    
+    a{
+        color: $muyClaro !important;
+        font-size: 18px;
+
+        &:hover{
+            font-weight: bold;
+        }   
+    }       
+}
+
+.botonBuscar{
+    border-style: map-get($botones, borde-estilo);
+    border-width: map-get($botones, borde-grosor);
+    border-color: map-get($botones, borde-color);
+    color: map-get($botones, color-fuente);
+    background-color: map-get($botones, color-fondo);
+    font-weight: bold;   
+
+    &:hover{
+        background-color: $verde;
+        border: $borde1 $verde;
+    }
+}
+
+// estilos carrusel
+
+#carrusel{
+    width: 900px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+// estilos sección destacados
+
+.contenedorDestacados{
+    margin: 100px auto;
+}
+
+.cajasDestacados{
+    text-align: center;
+    background-color: $rosa;
+    padding: 20px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: all 0.5s;
+
+    &:hover{
+        background-image: linear-gradient(to right, $fucsia, $rosa);
+    }
+
+    a{
+        text-decoration: none;
+        color: $oscuro;
+        font-size: 20px;
+        padding: 20px 15px;
+    }
+}
+
+// estilos videos
+
+iframe{
+    margin: 10px auto;
+}
+
+// estilos links calidad y expertos
+
+#seccionLinksCalidad{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.linksCalidad{
+    margin: 20px;
+
+    img{
+        width: 200px;
+        height: 150px;
+        border-radius: 100%;
+        margin: auto;
+        padding: 0px;
+        }
+
+    a{
+        text-decoration: none;
+        text-align: center;
+        color: $fucsia;
+        font-size: 18px;
+
+        &:hover{
+            color: $verde;
+        }
+
+    }
+}
+
+// estilos footer
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient($rosa, $claro);
+
+    a{
+        color: $oscuro !important;
+        font-size: 16px;
+    
+        &:hover{
+            text-decoration: underline;
+        }
+    
+    }
+
+}
+

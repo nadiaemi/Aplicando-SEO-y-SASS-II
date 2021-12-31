@@ -1,0 +1,46 @@
+.tituloPaginas{
+    font-family: $fuente-titulo;
+    margin: 20px auto auto 50px;
+    
+    
+    h2{
+        font-size: 35px;
+        color: $fucsia;
+    }
+
+    h3{
+        font-size: 20px;
+        color: $oscuro
+    }
+
+}
+
+.contenedorTienda{
+    margin: 30px auto;
+    animation-name: animacionProductos;
+    animation-iteration-count: 1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+   
+}
+
+@keyframes animacionProductos{
+    0% {
+        opacity: 0;    ;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+         
+}
+
+.botonComprar{
+    @extend .botonBuscar;
+    font-weight: bold;
+
+}
+
+.descripcionProducto{
+    border: 0px solid;
+}

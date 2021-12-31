@@ -1,0 +1,25 @@
+.cajaContacto{
+    margin: 50px auto;
+
+    span{
+        @include cajasFormularios ($verde, $verde, $oscuro);
+        color: $muyClaro;
+        
+    }
+
+    input, textarea, option, select{
+        @include cajasFormularios($borde1, $claro, $oscuro);
+        
+    }
+
+    button{
+        @extend .botonBuscar;
+        font-weight: bold;
+        margin: 20px auto;
+    }
+
+}
+
+.seccionCheck{
+    margin: 20px auto;
+}

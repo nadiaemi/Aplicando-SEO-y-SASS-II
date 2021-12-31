@@ -1,0 +1,7 @@
+CAMBIOS REALIZADOS PARA MEJORAR EL SEO
+
+*Se agregaron las etiquetas Meta Description y Meta Keywords para dar una descripción y las palabras clave para cada página. En este caso Home, Fragancias y Contacto.
+
+*Se colocaron los títulos de cada página seguidos del nombre del sitio. Por ejemplo "Fragancias- Tienda de Belleza"
+
+*Se agregaron encabezados h2 y h3 en las páginas de Fragancias y Contacto.
